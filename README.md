@@ -1,4 +1,4 @@
-﻿# 📃 Codificacion de datos
+﻿# 📃 Codificacion de datos - Grupo 03 - S31
 ## ⚙️ Funcionalidades
 * Carga de texto (por entrada directa o archivo .txt)
 *  Cálculo de frecuencia de símbolos
