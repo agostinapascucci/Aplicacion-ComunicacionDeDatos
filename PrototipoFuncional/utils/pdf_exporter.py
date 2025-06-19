@@ -3,14 +3,14 @@ Utilidad para exportar resultados a PDF
 Genera reportes completos con tablas y gráficos
 """
 
-from reportlab.lib.pagesizes import letter, A4
-from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer, Image
-from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.lib.units import inch
-from reportlab.lib import colors
-from reportlab.graphics.shapes import Drawing
-from reportlab.graphics.charts.barcharts import VerticalBarChart
-from reportlab.graphics.charts.legends import Legend
+from reportlab.lib.pagesizes import letter, A4 # type: ignore
+from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer, Image # type: ignore
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle # type: ignore
+from reportlab.lib.units import inch # type: ignore
+from reportlab.lib import colors # type: ignore
+from reportlab.graphics.shapes import Drawing # type: ignore
+from reportlab.graphics.charts.barcharts import VerticalBarChart # type: ignore
+from reportlab.graphics.charts.legends import Legend # type: ignore
 import matplotlib.pyplot as plt
 import io
 import base64
