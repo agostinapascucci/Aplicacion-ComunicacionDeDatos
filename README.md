@@ -15,11 +15,11 @@
  *   ReportLab
 
 ## Como ejecutar la aplicación
-    1. Clonar el respositorio localmente
-    2. Abrir la terminal en la carpeta _Prototipo Funcional_
-    3. Instalar las dependencias requeridas ( esto solo se requiere la primera vez ):
-        `pip install matplotlib pandas reportlab`
-    4. Ejecutar el archivo _main.py_
+1. Clonar el respositorio localmente
+2. Abrir la terminal en la carpeta _Prototipo Funcional_
+3. Instalar las dependencias requeridas ( esto solo se requiere la primera vez ):
+    `pip install matplotlib pandas reportlab`
+4. Ejecutar el archivo _main.py_
 
 ## Estructura de archivos
     Aplicacion-ComunicacionDeDatos
