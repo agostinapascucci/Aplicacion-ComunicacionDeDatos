@@ -24,35 +24,17 @@ class DataVisualizer:
         Returns:
             Figure: Figura de matplotlib con los gráficos
         """
-        fig = Figure(figsize=(15, 10))
+        fig = Figure(figsize=(18, 6))
+    
         
-        # Gráfico 1: Comparación de frecuencias
-        ax1 = fig.add_subplot(2, 3, 1)
-        self.plot_frequencies(ax1, huffman_results['frequencies'])
-        ax1.set_title('Frecuencias de Símbolos')
-        
-        # Gráfico 2: Longitudes de código Huffman
-        ax2 = fig.add_subplot(2, 3, 2)
-        self.plot_code_lengths(ax2, huffman_results['codes'], 'Huffman')
-        ax2.set_title('Longitudes de Código - Huffman')
-        
-        # Gráfico 3: Longitudes de código Shannon-Fano
-        ax3 = fig.add_subplot(2, 3, 3)
-        self.plot_code_lengths(ax3, shannon_results['codes'], 'Shannon-Fano')
-        ax3.set_title('Longitudes de Código - Shannon-Fano')
-        
-        # Gráfico 4: Comparación de estadísticas
-        ax4 = fig.add_subplot(2, 3, 4)
+        # Gráfico 1: Comparación de estadísticas
+        ax4 = fig.add_subplot(1, 3, 1)
         self.plot_statistics_comparison(ax4, huffman_results['statistics'], shannon_results['statistics'])
         ax4.set_title('Comparación de Estadísticas')
         
-        # Gráfico 5: Eficiencia vs Entropía
-        ax5 = fig.add_subplot(2, 3, 5)
-        self.plot_efficiency_entropy(ax5, huffman_results['statistics'], shannon_results['statistics'])
-        ax5.set_title('Eficiencia vs Entropía')
-        
-        # Gráfico 6: Tasa de compresión
-        ax6 = fig.add_subplot(2, 3, 6)
+
+        # Gráfico 2: Tasa de compresión
+        ax6 = fig.add_subplot(1, 3, 3)
         self.plot_compression_ratio(ax6, huffman_results['statistics'], shannon_results['statistics'])
         ax6.set_title('Tasa de Compresión')
         
