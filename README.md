@@ -39,7 +39,7 @@
      |   |_ main.py -------------- *ejecutar*
      |_PruebaTexto.txt ------------ *archivo de texto que se puede utilizar para la prueba*
      |_README.md
-## Ejecutable de la Aplicacion:
-[Ejecutable](Entrega 3/PrototipoFuncional-E3/dist/main)
+## Link a Carpeta con Ejecutable de la Aplicacion:
+[Ejecutable]
 
 
