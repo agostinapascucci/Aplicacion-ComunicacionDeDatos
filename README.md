@@ -2,7 +2,7 @@
 ## ⚙️ Funcionalidades
 * Carga de texto (por entrada directa o archivo .txt)
 *  Cálculo de frecuencia de símbolos
-* Construcción de árbol y tabla de códigos (Huffman y Shannon-Fano)
+* Construcción de tabla de códigos (Huffman y Shannon-Fano)
 *	Codificación y decodificación del mensaje
 *	Comparación de resultados: tasa de compresión, eficiencia, longitud promedio de código
 *	Visualización de tabla de símbolos y sus códigos
@@ -39,6 +39,7 @@
      |   |_ main.py -------------- *ejecutar*
      |_PruebaTexto.txt ------------ *archivo de texto que se puede utilizar para la prueba*
      |_README.md
-   
+## Ejecutable de la Aplicacion:
+[Ejecutable](Entrega 3/PrototipoFuncional-E3/dist/main)
 
 
