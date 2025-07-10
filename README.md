@@ -40,6 +40,6 @@
      |_PruebaTexto.txt ------------ *archivo de texto que se puede utilizar para la prueba*
      |_README.md
 ## Link a Carpeta con Ejecutable de la Aplicacion:
-[Ejecutable]
+[👆 Clickea para ir al Ejecutable](https://github.com/agostinapascucci/Aplicacion-ComunicacionDeDatos/tree/main/Entrega%203/PrototipoFuncional-E3/dist/main)
 
 
